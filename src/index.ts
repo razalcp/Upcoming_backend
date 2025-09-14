@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(
     cors({
         // origin: "http://localhost:1234",
-        origin: "https://upcoming-frontend-rq1t.vercel.app/",
+        origin: "https://upcoming-frontend-rq1t.vercel.app",
         methods: "GET, POST, PUT, DELETE, PATCH, OPTIONS",
         credentials: true
     })
